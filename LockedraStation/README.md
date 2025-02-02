@@ -22,3 +22,31 @@ The server have been built with Java Spring Boot, currently under development ph
 
 Despite the client - server architecture, the application store passwords in a decentralised way, therefore both the server and the client are running locally on the user's device.
 
+
+
+## Project Setup
+
+### Install
+
+```bash
+$ npm install
+```
+
+### Development
+
+```bash
+$ npm run dev
+```
+
+### Build
+
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```
